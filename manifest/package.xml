@@ -1,17 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>Guest__c</members>
-        <members>Payment__c</members>
-        <members>Reservation__c</members>
-        <members>Room_Type__c</members>
+	<types>
+		<members>Amenity__c</members>
+		<members>Booking__c</members>
+		<members>Employee__c</members>
         <members>Room__c</members>
-        <name>CustomObject</name>
+		<members>Guest__c</members>
+		<members>Hotel__c</members>
+		<members>Housekeeper_Schedule__c</members>
+		<members>Occupancy_Status__c</members>
+		<members>Payment__c</members>
+		<members>Reservation__c</members>	
+		<members>Room_Type__c</members>		
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Amenity__c</members>
+		<members>Booking__c</members>
+		<members>Employee__c</members>
+        <members>Room__c</members>
+		<members>Guest__c</members>
+		<members>Hotel__c</members>
+		<members>Housekeeper_Schedule__c</members>
+		<members>Occupancy_Status__c</members>
+		<members>Payment__c</members>
+		<members>Reservation__c</members>	
+		<members>Room_Type__c</members>		
+        <name>CustomTab</name>
+	</types>
+	<types>
+		<members>Amenity__c-Amenity Layout</members>
+		<members>Booking__c-Booking Layout</members>
+		<members>Employee__c-Employee Layout</members>
+		<members>Guest__c-Guest Layout</members>
+		<members>Hotel__c-Hotel Layout</members>
+		<members>Housekeeper_Schedule__c-Housekeeper Schedule Layout</members>
+		<members>Occupancy_Status__c-Occupancy Status Layout</members>
+		<members>Payment__c-Payment Layout</members>
+		<members>Reservation__c-Reservation Layout</members>
+		<members>Room__c-Room Layout</members>		
+		<members>Room_Type__c-Room Type Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>Admin</members>
+		<name>Profile</name>
+	</types>
+
+    <types>
+      <members>Payment_Methods</members>
+      <members>Payment_Status</members>
+      <name>GlobalValueSet</name>
     </types>
-
-    <version>59.0</version>
-
+	<version>58.0</version>
 </Package>
-
-
-    
