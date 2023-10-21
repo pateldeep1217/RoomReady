@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Occupant__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The guest currently occupying the room.</description>
+    <externalId>false</externalId>
+    <label>Current Occupant</label>
+    <referenceTo>Guest__c</referenceTo>
+    <relationshipLabel>Rooms</relationshipLabel>
+    <relationshipName>Rooms</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
