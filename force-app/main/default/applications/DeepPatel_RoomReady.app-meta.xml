@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#C98195</headerColor>
+        <logo>Color_logo_with_background</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>RoomReady is a robust and user-friendly hotel reservation system designed to streamline the booking process, enhance guest experiences, and optimize hotel management.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>RoomReady</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>Reservation__c</tabs>
+    <tabs>Hotel__c</tabs>
+    <tabs>Room__c</tabs>
+    <tabs>Room_Type__c</tabs>
+    <tabs>Amenity__c</tabs>
+    <tabs>Housekeeper_Schedule__c</tabs>
+    <tabs>Guest__c</tabs>
+    <tabs>Employee__c</tabs>
+    <tabs>Booking__c</tabs>
+    <tabs>standard-Payment</tabs>
+    <tabs>Payment__c</tabs>
+    <uiType>Lightning</uiType>
+
+</CustomApplication>
